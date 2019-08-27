@@ -1,0 +1,37 @@
+body{
+    background: black;
+    overflow-x: hidden
+}
+
+.bg-img{
+    margin-top: -99px;
+    background-image: url("../img/bg1.jpg");
+    min-height: 800px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.yu-navbar{
+    height: 99px;
+    margin: 0 9%;
+    z-index: 10000;
+}
+
+#about {
+    min-height: 600px;
+}
+
+#service {
+    min-height: 600px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.text-purple {
+    color: purple;
+}
